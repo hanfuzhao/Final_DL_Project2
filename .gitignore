@@ -1,34 +1,5 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-build/
-eggs/
-*.egg
-.Python
-env/
-venv/
-.venv/
-
-# Raw data (too large for git, ~3GB)
-data/raw/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store
-
-# Environment
+node_modules/
+dist/
 .env
-.env.local
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Node
-frontend/node_modules/
-web/node_modules/
+__pycache__/
+*.pyc
