@@ -1,0 +1,7 @@
+*.npz filter=lfs diff=lfs merge=lfs -text
+data/processed/unified_toxicity_data.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/jigsaw-unintended-bias-in-toxicity-classification/all_data.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/jigsaw-unintended-bias-in-toxicity-classification/train.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/jigsaw-unintended-bias-in-toxicity-classification.zip filter=lfs diff=lfs merge=lfs -text
+data/raw/jigsaw-unintended-bias-in-toxicity-classification/toxicity_individual_annotations.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/jigsaw-unintended-bias-in-toxicity-classification/identity_individual_annotations.csv filter=lfs diff=lfs merge=lfs -text

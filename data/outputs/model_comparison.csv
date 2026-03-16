@@ -1,0 +1,4 @@
+Model,Accuracy,Weighted F1
+Naive Baseline,0.2084,0.16929637439909906
+Logistic Regression,0.6275,0.6217724366314438
+DistilBERT,0.7225,0.7213362098667376

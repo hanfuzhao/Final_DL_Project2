@@ -1,0 +1,242 @@
+[
+  {
+    "model": "Naive Baseline",
+    "accuracy": 0.2084,
+    "weighted_f1": 0.16929637439909906,
+    "report": {
+      "clean": {
+        "precision": 0.14220670814994688,
+        "recall": 0.937,
+        "f1-score": 0.24693635525102123,
+        "support": 1000.0
+      },
+      "racism": {
+        "precision": 0.6567164179104478,
+        "recall": 0.264,
+        "f1-score": 0.37660485021398005,
+        "support": 1000.0
+      },
+      "sexism": {
+        "precision": 0.2438070404172099,
+        "recall": 0.187,
+        "f1-score": 0.21165817770232032,
+        "support": 1000.0
+      },
+      "profanity": {
+        "precision": 0.21861656703672075,
+        "recall": 0.256,
+        "f1-score": 0.235836020267158,
+        "support": 1000.0
+      },
+      "cyberbullying": {
+        "precision": 0.19808306709265175,
+        "recall": 0.062,
+        "f1-score": 0.09444021325209444,
+        "support": 1000.0
+      },
+      "toxicity": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1000.0
+      },
+      "hate_speech": {
+        "precision": 0.5663265306122449,
+        "recall": 0.111,
+        "f1-score": 0.18561872909698995,
+        "support": 1000.0
+      },
+      "implicit_hate": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1000.0
+      },
+      "threat": {
+        "precision": 0.4750889679715303,
+        "recall": 0.267,
+        "f1-score": 0.3418693982074264,
+        "support": 1000.0
+      },
+      "sarcasm": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1000.0
+      },
+      "accuracy": 0.2084,
+      "macro avg": {
+        "precision": 0.25008452991907526,
+        "recall": 0.2084,
+        "f1-score": 0.16929637439909903,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.2500845299190752,
+        "recall": 0.2084,
+        "f1-score": 0.16929637439909906,
+        "support": 10000.0
+      }
+    }
+  },
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.6275,
+    "weighted_f1": 0.6217724366314438,
+    "report": {
+      "clean": {
+        "precision": 0.5910418695228822,
+        "recall": 0.607,
+        "f1-score": 0.5989146521953626,
+        "support": 1000.0
+      },
+      "racism": {
+        "precision": 0.63003663003663,
+        "recall": 0.516,
+        "f1-score": 0.5673446948873007,
+        "support": 1000.0
+      },
+      "sexism": {
+        "precision": 0.6303030303030303,
+        "recall": 0.624,
+        "f1-score": 0.6271356783919598,
+        "support": 1000.0
+      },
+      "profanity": {
+        "precision": 0.5155902004454342,
+        "recall": 0.463,
+        "f1-score": 0.48788198103266595,
+        "support": 1000.0
+      },
+      "cyberbullying": {
+        "precision": 0.4721233689205219,
+        "recall": 0.398,
+        "f1-score": 0.4319045035268584,
+        "support": 1000.0
+      },
+      "toxicity": {
+        "precision": 0.47283126787416585,
+        "recall": 0.496,
+        "f1-score": 0.48413860419716936,
+        "support": 1000.0
+      },
+      "hate_speech": {
+        "precision": 0.608955223880597,
+        "recall": 0.612,
+        "f1-score": 0.6104738154613466,
+        "support": 1000.0
+      },
+      "implicit_hate": {
+        "precision": 0.6925207756232687,
+        "recall": 0.75,
+        "f1-score": 0.7201152184349496,
+        "support": 1000.0
+      },
+      "threat": {
+        "precision": 0.845108695652174,
+        "recall": 0.933,
+        "f1-score": 0.8868821292775665,
+        "support": 1000.0
+      },
+      "sarcasm": {
+        "precision": 0.7411167512690355,
+        "recall": 0.876,
+        "f1-score": 0.8029330889092575,
+        "support": 1000.0
+      },
+      "accuracy": 0.6275,
+      "macro avg": {
+        "precision": 0.6199627813527739,
+        "recall": 0.6275000000000001,
+        "f1-score": 0.6217724366314437,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.6199627813527739,
+        "recall": 0.6275,
+        "f1-score": 0.6217724366314438,
+        "support": 10000.0
+      }
+    }
+  },
+  {
+    "model": "DistilBERT",
+    "accuracy": 0.7225,
+    "weighted_f1": 0.7213362098667376,
+    "report": {
+      "clean": {
+        "precision": 0.7936893203883495,
+        "recall": 0.654,
+        "f1-score": 0.7171052631578947,
+        "support": 1000.0
+      },
+      "racism": {
+        "precision": 0.6556854410201913,
+        "recall": 0.617,
+        "f1-score": 0.6357547655847501,
+        "support": 1000.0
+      },
+      "sexism": {
+        "precision": 0.6842610364683301,
+        "recall": 0.713,
+        "f1-score": 0.6983349657198825,
+        "support": 1000.0
+      },
+      "profanity": {
+        "precision": 0.62625250501002,
+        "recall": 0.625,
+        "f1-score": 0.6256256256256256,
+        "support": 1000.0
+      },
+      "cyberbullying": {
+        "precision": 0.6486486486486487,
+        "recall": 0.6,
+        "f1-score": 0.6233766233766234,
+        "support": 1000.0
+      },
+      "toxicity": {
+        "precision": 0.6166166166166166,
+        "recall": 0.616,
+        "f1-score": 0.6163081540770385,
+        "support": 1000.0
+      },
+      "hate_speech": {
+        "precision": 0.5991266375545852,
+        "recall": 0.686,
+        "f1-score": 0.6396270396270396,
+        "support": 1000.0
+      },
+      "implicit_hate": {
+        "precision": 0.7870905587668593,
+        "recall": 0.817,
+        "f1-score": 0.8017664376840039,
+        "support": 1000.0
+      },
+      "threat": {
+        "precision": 0.9155060352831941,
+        "recall": 0.986,
+        "f1-score": 0.9494463168030813,
+        "support": 1000.0
+      },
+      "sarcasm": {
+        "precision": 0.9010880316518298,
+        "recall": 0.911,
+        "f1-score": 0.9060169070114371,
+        "support": 1000.0
+      },
+      "accuracy": 0.7225,
+      "macro avg": {
+        "precision": 0.7227964831408624,
+        "recall": 0.7224999999999999,
+        "f1-score": 0.7213362098667377,
+        "support": 10000.0
+      },
+      "weighted avg": {
+        "precision": 0.7227964831408625,
+        "recall": 0.7225,
+        "f1-score": 0.7213362098667376,
+        "support": 10000.0
+      }
+    }
+  }
+]
