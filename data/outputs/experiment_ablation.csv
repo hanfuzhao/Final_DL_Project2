@@ -1,0 +1,6 @@
+config,accuracy,weighted_f1,time_sec
+"1. Baseline (unigrams, raw text)",0.6372,0.631714012093908,5.8
+2. +Preprocessing (lemmatized text),0.6155,0.6088008709694339,5.9
+3. +Bigrams (unigrams+bigrams),0.6258,0.62021160543271,8.8
+4. +Sublinear TF (log-scaled TF),0.6275,0.6217724366314438,9.9
+5. +Balanced Classes (full pipeline),0.6275,0.6217724366314438,8.4
