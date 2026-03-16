@@ -1,6 +1,6 @@
-## SafeType — AI-Powered Content Safety Detection for Children
+# SafeType — AI-Powered Content Safety Detection for Children
 
-# AIPI 540 Deep Learning Applications Project -2. 
+## AIPI 540 - Deep Learning Applications Project - 2
 
 We built a real-time content safety system (Android app and website) that monitors children's chat messages across Android apps (WhatsApp, Instagram, Snapchat, etc.) and classifies them into **10 categories**: clean, racism, sexism, profanity, cyberbullying, toxicity, hate speech, implicit hate, threat, and sarcasm.
 
