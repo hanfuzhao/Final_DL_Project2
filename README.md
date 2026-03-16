@@ -1,13 +1,15 @@
-# SafeType — AI-Powered Content Safety Detection for Children
+## SafeType — AI-Powered Content Safety Detection for Children
 
-A deep learning project at Duke University. We built a real-time content safety system that monitors children's chat messages across Android apps (WhatsApp, Instagram, Snapchat, etc.) and classifies them into **10 categories**: clean, racism, sexism, profanity, cyberbullying, toxicity, hate speech, implicit hate, threat, and sarcasm.
+# AIPI 540 Deep Learning Applications Project -2. 
+
+We built a real-time content safety system (Android app and website) that monitors children's chat messages across Android apps (WhatsApp, Instagram, Snapchat, etc.) and classifies them into **10 categories**: clean, racism, sexism, profanity, cyberbullying, toxicity, hate speech, implicit hate, threat, and sarcasm.
 
 The system includes a custom-trained DistilBERT model, a deployed API, an Android keyboard app that captures messages, and two web interfaces for monitoring and demonstration.
 
 ## Live Demos
 
+- **Website and Parent Dashboard**: https://safetype.up.railway.app
 - **Model API**: https://dl-project-2-second-version.onrender.com
-- **Parent Dashboard**: https://dlproject2-secondversion-production-029d.up.railway.app
 
 ## Project Structure
 
@@ -33,7 +35,7 @@ The system includes a custom-trained DistilBERT model, a deployed API, an Androi
 │   └── outputs/            <- Results, plots, confusion matrices
 ├── notebooks/
 │   └── eda.ipynb           <- Exploratory data analysis
-├── web_app/                <- Deployed application code
+├── web_app/                <- Deployed mobile app and web application code
 │   ├── app.py              <- Flask API with post-processing calibration
 │   ├── frontend/           <- React UI: iPhone keyboard simulator
 │   ├── web/                <- Parent dashboard: real message monitoring
