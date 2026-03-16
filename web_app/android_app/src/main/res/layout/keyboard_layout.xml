@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/keyboard_background">
+
+    <!-- Autocomplete suggestions bar -->
+    <LinearLayout
+        android:id="@+id/autocomplete_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/autocomplete_background"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/suggestion_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/autocomplete_text"
+            android:textSize="14sp"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@color/key_divider" />
+
+        <TextView
+            android:id="@+id/suggestion_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/autocomplete_text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:background="@color/key_divider" />
+
+        <TextView
+            android:id="@+id/suggestion_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/autocomplete_text"
+            android:textSize="14sp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!-- Keyboard canvas view -->
+    <com.safetype.keyboard.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

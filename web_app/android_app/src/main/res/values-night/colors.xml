@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme keyboard colors -->
+    <color name="keyboard_background">#FF2C2C2C</color>
+    <color name="key_background">#FF3C3C3C</color>
+    <color name="key_background_pressed">#FF555555</color>
+    <color name="key_text">#FFEEEEEE</color>
+    <color name="key_special_background">#FF505050</color>
+    <color name="key_spacebar_background">#FF484848</color>
+    <color name="key_send_background">#FF8AB4F8</color>
+    <color name="key_send_text">#FF202020</color>
+    <color name="autocomplete_background">#FF383838</color>
+    <color name="autocomplete_text">#FFCCCCCC</color>
+    <color name="key_shadow">#44000000</color>
+    <color name="key_divider">#FF444444</color>
+    <color name="popup_background">#FF757575</color>
+    <color name="popup_text">#FFFFFFFF</color>
+</resources>
