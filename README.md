@@ -21,7 +21,7 @@ The system includes a custom-trained DistilBERT model, a deployed API, an Androi
 │   ├── make_dataset.py     <- Combines 8 data sources into unified 10-class dataset
 │   ├── build_features.py   <- Text cleaning, TF-IDF, handcrafted features
 │   ├── model.py            <- Trains Naive Baseline, Logistic Regression, DistilBERT
-│   └── experiment.py       <- Training size sensitivity + noise robustness + ablation study
+│   └── experiment.py       <- Training size sensitivity + noise robustness
 ├── models/
 │   ├── naive_baseline.pkl
 │   ├── logistic_regression.pkl
@@ -124,7 +124,5 @@ Android Device                    Cloud
 
 - **Training size sensitivity**: F1 grows from 0.36 (1% data) to 0.62 (100%)
 - **Noise robustness**: F1 drops from 0.62 (clean) to 0.22 (30% character noise)
-- **Ablation (preprocessing)**: Lemmatization hurts F1 from 0.632 to 0.609. Bigrams and sublinear TF scaling recover performance to 0.622。
 
-
-All results and plots in `data/outputs/`.
+Results and plots in `data/outputs/`.
