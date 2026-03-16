@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeType — AI-Powered Parental Monitoring</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============ LANDING ============ -->
+    <div id="landing-screen" class="screen">
+        <header class="landing-header">
+            <div class="container">
+                <a href="#landing" class="brand"><span class="brand-shield">&#x1F6E1;</span> SafeType</a>
+                <nav class="landing-nav">
+                    <a href="#setup">Setup Guide</a>
+                    <a href="#login">Parent Login</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="hero-tag">AI-Powered Parental Monitoring for Android</p>
+                    <h1>Protect conversations before they become crises.</h1>
+                    <p class="hero-sub">Monitor WhatsApp, Instagram, Snapchat and more with our custom-trained deep learning model. 10-category detection flags bullying, hate speech, threats, and other harmful content in real time.</p>
+                    <div class="hero-actions">
+                        <a href="#setup" class="btn btn-primary">Setup Guide</a>
+                        <a href="#login" class="btn btn-ghost">Parent Dashboard</a>
+                    </div>
+                    <p class="hero-proof">10+ apps monitored &middot; Real-time alerts &middot; Custom DistilBERT model &middot; Transparent monitoring</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <h2>How SafeType works</h2>
+                <div class="steps-row">
+                    <div class="step">
+                        <span class="step-n">1</span>
+                        <p>Install SafeType on your child's Android device. It captures messages via keyboard, notifications, and screen reading.</p>
+                    </div>
+                    <div class="step-arrow">&rarr;</div>
+                    <div class="step">
+                        <span class="step-n">2</span>
+                        <p>Messages are sent to our cloud API where a custom DistilBERT model classifies content across 10 safety categories.</p>
+                    </div>
+                    <div class="step-arrow">&rarr;</div>
+                    <div class="step">
+                        <span class="step-n">3</span>
+                        <p>View messages, detailed analysis, and threat alerts on your parent dashboard. Click any message for full breakdown.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-safetype">
+            <div class="container">
+                <h2>Why parents choose SafeType</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3>10-Category Detection</h3>
+                        <p>Our custom model detects racism, sexism, cyberbullying, hate speech, threats, toxicity, profanity, implicit hate, sarcasm, and clean content with probability scores for each.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>Cross-App Visibility</h3>
+                        <p>One dashboard for WhatsApp, Instagram, Snapchat, Messages and more. No need to check each app separately.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>Educational Safety Guide</h3>
+                        <p>Each detection comes with actionable advice for parents and age-appropriate explanations for children about what the content means and how to respond.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>Real-Time Sync</h3>
+                        <p>Messages appear on your dashboard within seconds. Click any message for detailed 10-category probability breakdown and safety guidance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="safety-transparency">
+            <div class="container">
+                <h2>Safety &amp; Transparency</h2>
+                <p class="safety-lead">SafeType is designed for ethical, above-board monitoring.</p>
+                <ul class="safety-list">
+                    <li><strong>Child-visible notification:</strong> A persistent notice on the device says &ldquo;SafeType Parental Monitor is active.&rdquo; Children know they are being monitored.</li>
+                    <li><strong>Not covert:</strong> We believe parents and kids benefit from clear expectations. No hidden tracking.</li>
+                    <li><strong>For safety, not surveillance:</strong> Built to protect kids from harm, not to spy. Use responsibly.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="duke-research">
+            <div class="container">
+                <h2>Built at Duke University</h2>
+                <p class="duke-lead">SafeType is a <strong>Deep Learning research project at Duke University</strong>. We developed and deployed a custom DistilBERT model trained on real-world harmful content data, replacing third-party APIs with our own model for transparent, controllable safety classification.</p>
+                <div class="model-roadmap">
+                    <div class="roadmap-item">
+                        <span class="roadmap-label">Our Model</span>
+                        <p>A fine-tuned <strong>DistilBERT</strong> classifier that detects 10 categories of harmful content: racism, sexism, profanity, cyberbullying, toxicity, hate speech, implicit hate, threats, sarcasm, and clean messages.</p>
+                    </div>
+                    <div class="roadmap-item">
+                        <span class="roadmap-label">Calibration</span>
+                        <p><strong>Post-processing calibration</strong> reduces false positives while maintaining sensitivity to genuinely harmful content. Severity-tiered thresholds treat categories differently based on their real-world impact.</p>
+                    </div>
+                    <div class="roadmap-item">
+                        <span class="roadmap-label">Integration</span>
+                        <p>The model runs on our <strong>deployed API</strong>, receiving messages from the Android app and returning real-time classification results with full probability distributions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-strip">
+            <div class="container">
+                <h2>Get started</h2>
+                <p class="cta-strip-sub">Install the app on your child's device, then sign in to your dashboard.</p>
+                <div class="cta-strip-actions">
+                    <a href="#setup" class="btn btn-primary">Setup Guide</a>
+                    <a href="#login" class="btn btn-ghost">Parent Login</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container narrow">
+                <h2>Common questions</h2>
+                <dl class="faq-list">
+                    <dt>What AI model do you use?</dt>
+                    <dd>We use a custom fine-tuned DistilBERT model trained at Duke University. It classifies text into 10 categories with calibrated confidence scores, running on our own deployed API.</dd>
+                    <dt>Is my child's data private?</dt>
+                    <dd>Messages are stored in a secure database and used only for safety analysis. The system is designed for a single family; we do not sell or share data.</dd>
+                    <dt>What about false positives?</dt>
+                    <dd>Our model includes post-processing calibration to reduce false positives. Parents always see the full message, probability breakdown, and flag reason to judge for themselves.</dd>
+                    <dt>Does it work on iPhone?</dt>
+                    <dd>No. SafeType requires Android (keyboard and accessibility features). iOS does not allow equivalent monitoring without enterprise MDM.</dd>
+                    <dt>How do I get the app?</dt>
+                    <dd>Follow the <a href="#setup">Setup Guide</a> to download the APK from our secure link and install it on your child's Android device.</dd>
+                </dl>
+            </div>
+        </section>
+
+        <footer class="landing-footer">
+            <div class="container">
+                <span class="brand-sm">SafeType</span>
+                <span class="footer-note">Deep Learning project at Duke University &mdash; safety, not surveillance.</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ============ SETUP GUIDE ============ -->
+    <div id="setup-screen" class="screen">
+        <header class="page-header">
+            <div class="container">
+                <a href="#landing" class="back-link">&larr; Back to home</a>
+                <a href="#login" class="nav-cta">Parent Login</a>
+            </div>
+        </header>
+
+        <section class="setup-content">
+            <div class="container narrow">
+                <h1>Setup Guide</h1>
+                <p class="setup-intro">Get SafeType running on your child's device in under 10 minutes. You'll need physical access to their Android phone.</p>
+
+                <div class="setup-steps">
+                    <div class="setup-step">
+                        <div class="step-marker">1</div>
+                        <div class="step-body">
+                            <h3>Download the APK</h3>
+                            <p>Download the SafeType installer from our secure link. The file is approximately 15 MB.</p>
+                            <a href="https://drive.google.com/drive/folders/1cubLHtaUOrNKaUBEeAwCxj5sOYfvEhMT?usp=drive_link" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Download from Google Drive</a>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-marker">2</div>
+                        <div class="step-body">
+                            <h3>Enable installation from unknown sources</h3>
+                            <p>On the child's device, go to <strong>Settings &rarr; Security &rarr; Install unknown apps</strong> and allow your file manager or browser to install APKs.</p>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-marker">3</div>
+                        <div class="step-body">
+                            <h3>Install and grant permissions</h3>
+                            <p>Open the downloaded APK and install SafeType. The app will request three permissions:</p>
+                            <ul>
+                                <li><strong>Accessibility Service</strong> &mdash; reads on-screen messages from chat apps</li>
+                                <li><strong>Notification Access</strong> &mdash; captures incoming message notifications</li>
+                                <li><strong>Input Method</strong> &mdash; enables the SafeType keyboard to capture outgoing text</li>
+                            </ul>
+                            <p>All three must be enabled for full monitoring coverage.</p>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-marker">4</div>
+                        <div class="step-body">
+                            <h3>Set SafeType as the default keyboard</h3>
+                            <p>Go to <strong>Settings &rarr; System &rarr; Languages &amp; input &rarr; Default keyboard</strong> and select <strong>SafeType</strong>.</p>
+                        </div>
+                    </div>
+
+                    <div class="setup-step">
+                        <div class="step-marker">5</div>
+                        <div class="step-body">
+                            <h3>Verify on your dashboard</h3>
+                            <p>Send a test message from the child's device. Within 10&ndash;15 seconds, it should appear on your <a href="#login">parent dashboard</a>. The device status will show as "Online".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="setup-note">
+                    <strong>Transparency:</strong> SafeType shows a persistent notification on the child's device that says "SafeType Parental Monitor is active." This is intentional &mdash; children should know they are being monitored.
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ============ LOGIN ============ -->
+    <div id="login-screen" class="screen">
+        <header class="page-header">
+            <div class="container">
+                <a href="#landing" class="back-link">&larr; Back to home</a>
+            </div>
+        </header>
+
+        <div class="login-wrap">
+            <div class="login-card">
+                <h1>Parent Dashboard</h1>
+                <p class="login-sub">Sign in to monitor your child's messages.</p>
+                <form id="login-form">
+                    <div class="field">
+                        <label for="email">Username</label>
+                        <input type="text" id="email" placeholder="Enter username" required>
+                    </div>
+                    <div class="field">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+                </form>
+                <div id="login-error" class="error-msg" style="display:none"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ DASHBOARD ============ -->
+    <div id="dashboard-screen" class="screen">
+        <nav class="dash-nav">
+            <div class="dash-nav-left">
+                <span class="brand"><span class="brand-shield">&#x1F6E1;</span> SafeType</span>
+                <span class="status-dot"></span>
+            </div>
+            <div class="dash-nav-right">
+                <span id="device-status" class="status-pill offline">No Device</span>
+                <span class="model-label">Model</span>
+                <select id="model-select">
+                    <option value="distilbert">DistilBERT</option>
+                    <option value="logistic_regression">Logistic Regression</option>
+                </select>
+                <button id="btn-logout" class="btn btn-sm btn-ghost">Logout</button>
+            </div>
+        </nav>
+
+        <!-- Stats Strip -->
+        <div class="stats-strip">
+            <div class="stat">
+                <span class="stat-val" id="stat-total">0</span>
+                <span class="stat-lbl">Messages today</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat stat--danger">
+                <span class="stat-val" id="stat-flagged">0</span>
+                <span class="stat-lbl">Threats detected</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-val" id="stat-apps">0</span>
+                <span class="stat-lbl">Apps monitored</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+                <span class="stat-val" id="stat-last-sync">--</span>
+                <span class="stat-lbl">Last sync</span>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls-bar">
+            <div class="filters">
+                <select id="filter-app">
+                    <option value="all">All Apps</option>
+                    <option value="com.whatsapp">WhatsApp</option>
+                    <option value="com.google.android.apps.messaging">Messages</option>
+                    <option value="com.instagram.android">Instagram</option>
+                    <option value="com.snapchat.android">Snapchat</option>
+                    <option value="keyboard">Keyboard</option>
+                </select>
+                <select id="filter-flag">
+                    <option value="all">All Messages</option>
+                    <option value="flagged">Flagged Only</option>
+                    <option value="safe">Safe Only</option>
+                </select>
+                <select id="filter-source">
+                    <option value="all">All Sources</option>
+                    <option value="accessibility">Screen Scraper</option>
+                    <option value="keyboard">Keyboard</option>
+                    <option value="notification">Notification</option>
+                </select>
+            </div>
+            <div class="control-actions">
+                <button id="btn-refresh" class="btn btn-sm btn-ghost">Refresh</button>
+                <button id="btn-analyze" class="btn btn-sm btn-primary">Analyze Now</button>
+                <span id="analyze-status" class="analyze-status"></span>
+            </div>
+        </div>
+
+        <!-- Alerts -->
+        <div id="alerts-section" class="alerts-section" style="display:none">
+            <h3 class="alerts-title">Flagged Messages</h3>
+            <div id="alerts-list" class="alerts-list"></div>
+        </div>
+
+        <!-- Main Grid: Messages + Analysis Panel -->
+        <div class="dash-grid">
+            <!-- Left: Message List -->
+            <div>
+                <div id="messages-list" class="msg-list">
+                    <div class="msg-empty">No messages yet. Waiting for device sync...</div>
+                </div>
+                <div class="load-more">
+                    <button id="btn-load-more" class="btn btn-sm btn-ghost" style="display:none">Load More</button>
+                </div>
+            </div>
+
+            <!-- Right: Analysis Panel -->
+            <div class="analysis-panel">
+                <div class="card">
+                    <h3>Detection Result</h3>
+                    <div id="detection-result">
+                        <div class="live-empty">Click a message to see detailed analysis</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Category Probabilities</h3>
+                    <div id="prob-bars" class="prob-list"></div>
+                </div>
+
+                <div id="safety-guide-container"></div>
+
+                <div class="card">
+                    <h3>Category Reference</h3>
+                    <div id="cat-ref" class="cat-ref"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
