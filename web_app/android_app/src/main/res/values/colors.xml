@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme keyboard colors -->
+    <color name="keyboard_background">#FFE8E8E8</color>
+    <color name="key_background">#FFFFFFFF</color>
+    <color name="key_background_pressed">#FFCCCCCC</color>
+    <color name="key_text">#FF212121</color>
+    <color name="key_special_background">#FFB0BEC5</color>
+    <color name="key_spacebar_background">#FFFAFAFA</color>
+    <color name="key_send_background">#FF4285F4</color>
+    <color name="key_send_text">#FFFFFFFF</color>
+    <color name="autocomplete_background">#FFF5F5F5</color>
+    <color name="autocomplete_text">#FF424242</color>
+    <color name="key_shadow">#33000000</color>
+    <color name="key_divider">#FFD0D0D0</color>
+    <color name="popup_background">#FF616161</color>
+    <color name="popup_text">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SafeType" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF4285F4</item>
+        <item name="colorPrimaryVariant">#FF3367D6</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">#FF34A853</item>
+        <item name="colorSecondaryVariant">#FF2E7D32</item>
+        <item name="colorOnSecondary">#FFFFFFFF</item>
+    </style>
+</resources>

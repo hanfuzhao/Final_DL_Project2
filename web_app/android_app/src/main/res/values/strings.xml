@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeType — Parental Monitor</string>
+    <string name="accessibility_service_description">SafeType parental monitoring service. Reads on-screen messages from chat apps and sends them to your parent\'s dashboard. This service is part of a parental safety tool.</string>
+    <string name="accessibility_service_label">SafeType Parental Monitor</string>
+    <string name="monitoring_notification_title">SafeType is active</string>
+    <string name="monitoring_notification_text">Parental monitoring is running. Your parent can see your messages.</string>
+    <string name="notification_channel_name">Parental Monitoring</string>
+    <string name="notification_channel_description">Shows when SafeType parental monitoring is active</string>
+    <string name="about_app_title">SafeType — Parental Safety</string>
+    <string name="about_app_description">This app was installed by your parent to help keep you safe online. It monitors messages in chat apps and alerts your parent to potentially harmful content.\n\nWhat this app does:\n• Reads messages in WhatsApp, Instagram, Snapchat, and SMS\n• Sends message data to your parent\'s dashboard\n• Logs what you type on the keyboard\n\nThis is a university research project on child online safety.</string>
+</resources>
