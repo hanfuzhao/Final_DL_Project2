@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: safetype
+    runtime: python
+    buildCommand: |
+      curl -L -o models/distilbert-toxicity/model.safetensors "https://media.githubusercontent.com/media/hanfuzhao/DL_Project_2-Second_version-/main/models/distilbert-toxicity/model.safetensors" &&
+      cd web_app/frontend && npm install && npm run build && cd ../.. &&
+      pip install torch --index-url https://download.pytorch.org/whl/cpu &&
+      pip install -r requirements.txt &&
+      python -c "import nltk; nltk.download('punkt_tab'); nltk.download('stopwords'); nltk.download('wordnet')"
+    startCommand: cd web_app && gunicorn app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.6"
+      - key: NODE_VERSION
+        value: "18.18.0"
+      - key: SAFETYPE_DEVICE
+        value: cpu
+    plan: free
