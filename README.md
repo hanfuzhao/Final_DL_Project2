@@ -23,6 +23,8 @@ The system includes a **custom fine-tuned DistilBERT model**, a **deployed Flask
 
 ## Project Structure
 
+The repository is split into two layers: the **ML pipeline** (root-level scripts, models, data) and the **application layer** (`web_app/` — contains the Flask API, both web interfaces, the Android app, and Supabase backend).
+
 ```
 ├── README.md
 ├── requirements.txt
